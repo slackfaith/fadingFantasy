@@ -5,7 +5,25 @@ unit rpg_lua;
 interface
 
 uses
-  Classes, SysUtils;
+  Classes, SysUtils,
+  lua, lualib, lauxlib;
+
+
+type
+
+  { TLuaManager }
+
+  TLuaManager = class
+    private
+      L: Plua_State;
+    public
+  end;
+
+  { TLuaScript }
+
+  TLuaScript = class
+
+  end;
 
 implementation
 

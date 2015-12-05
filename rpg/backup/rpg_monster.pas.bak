@@ -1,0 +1,28 @@
+unit rpg_monster;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+
+  TMonsterAIBehaviour = class
+
+  end;
+
+  TMonsterDrop = class
+
+  end;
+
+  TMonster = class
+
+  end;
+
+
+implementation
+
+end.
+

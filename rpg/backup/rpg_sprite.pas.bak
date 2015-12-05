@@ -1,0 +1,34 @@
+unit rpg_sprite;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, contnrs,
+   SDL_app, sdl, sdl_image, sdl_gfx;
+
+type
+
+   { TSpriteHitRect }
+
+   TSpriteHitRect = class
+     width: Integer;
+     height: Integer;
+     posX: Integer;
+     posY: Integer;
+   end;
+
+   { TSprite }
+
+   TSprite = class
+     public;
+     private;
+       _surface: PSDL_Surface;
+       _hitrects: TObjectList;
+   end;
+
+implementation
+
+end.
+

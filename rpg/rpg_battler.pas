@@ -7,6 +7,15 @@ interface
 uses
   Classes, SysUtils;
 
+
+type
+
+  { TBattler }
+
+  TBattler = class
+
+  end;
+
 implementation
 
 end.

@@ -1,0 +1,27 @@
+unit rpg_fpscounter;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+const
+  MAX_FPS = 60;
+
+type
+
+  TFpsCounter = class
+    public
+
+      procedure Update;
+    private
+      _fps: Integer;
+      _ftime: Single;
+  end;
+
+implementation
+
+end.
+

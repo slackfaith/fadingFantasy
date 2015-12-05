@@ -1,0 +1,22 @@
+unit rpg_game;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils,
+  rpg_mainloop, rpg_session,
+
+  SDL_app;
+
+type
+
+  TGame = class
+
+  end;
+
+implementation
+
+end.
+

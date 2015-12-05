@@ -1,0 +1,20 @@
+unit rpg_battler;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+
+type
+
+  TBattler = class
+
+  end;
+
+implementation
+
+end.
+

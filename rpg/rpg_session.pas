@@ -7,6 +7,19 @@ interface
 uses
   Classes, SysUtils;
 
+type
+
+
+  { TSessionTime }
+
+  TSessionTime = record
+
+  end;
+
+  TSession = class
+
+  end;
+
 implementation
 
 end.

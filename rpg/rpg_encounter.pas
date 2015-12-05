@@ -7,6 +7,20 @@ interface
 uses
   Classes, SysUtils;
 
+
+
+type
+
+  { TEncounterEntry }
+
+  TEncounterEntry = record
+
+  end;
+
+  TEncounter = class
+
+  end;
+
 implementation
 
 end.

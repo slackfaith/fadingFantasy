@@ -1,0 +1,22 @@
+unit rpg_mainloop;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+
+  { TMainLoop }
+
+  TMainLoop = class
+    public
+    private
+  end;
+
+implementation
+
+end.
+

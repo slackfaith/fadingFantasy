@@ -1,0 +1,20 @@
+unit rpg_combat;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+
+type
+
+  TCombat = class
+
+  end;
+
+implementation
+
+end.
+

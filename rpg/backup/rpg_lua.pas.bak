@@ -1,0 +1,27 @@
+unit rpg_lua;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils,
+  lua, lualib, lauxlib;
+
+
+type
+
+  TLuaManager = class
+    private
+      L: Plua_State;
+    public
+  end;
+
+  TLuaScript = class
+
+  end;
+
+implementation
+
+end.
+

@@ -7,6 +7,15 @@ interface
 uses
   Classes, SysUtils;
 
+
+type
+
+  { TCombat }
+
+  TCombat = class
+
+  end;
+
 implementation
 
 end.

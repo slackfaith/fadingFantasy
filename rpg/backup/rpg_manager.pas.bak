@@ -1,0 +1,19 @@
+unit rpg_manager;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+
+  TManager = class
+
+  end;
+
+implementation
+
+end.
+

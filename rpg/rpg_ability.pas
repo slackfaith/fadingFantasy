@@ -7,6 +7,16 @@ interface
 uses
   Classes, SysUtils;
 
+
+
+type
+
+  { TAbility }
+
+  TAbility = class
+
+  end;
+
 implementation
 
 end.
