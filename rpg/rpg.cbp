@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rpg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rpg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rpg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="D:/win/Dev/lib/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="SDL_image" />
+			<Add library="SDL_ttf" />
+			<Add library="SDL_gfx" />
+			<Add library="SDL_mixer" />
+			<Add directory="D:/win/Dev/lib/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="include/SDL_app.h" />
+		<Unit filename="include/rpg_ability.h" />
+		<Unit filename="include/rpg_actor.h" />
+		<Unit filename="include/rpg_animation.h" />
+		<Unit filename="include/rpg_audio.h" />
+		<Unit filename="include/rpg_battler.h" />
+		<Unit filename="include/rpg_camera.h" />
+		<Unit filename="include/rpg_combat.h" />
+		<Unit filename="include/rpg_command.h" />
+		<Unit filename="include/rpg_dialog.h" />
+		<Unit filename="include/rpg_encounter.h" />
+		<Unit filename="include/rpg_event.h" />
+		<Unit filename="include/rpg_fpscounter.h" />
+		<Unit filename="include/rpg_hero.h" />
+		<Unit filename="include/rpg_input.h" />
+		<Unit filename="include/rpg_item.h" />
+		<Unit filename="include/rpg_lua.h" />
+		<Unit filename="include/rpg_main.h" />
+		<Unit filename="include/rpg_mainloop.h" />
+		<Unit filename="include/rpg_manager.h" />
+		<Unit filename="include/rpg_monster.h" />
+		<Unit filename="include/rpg_particle.h" />
+		<Unit filename="include/rpg_scene.h" />
+		<Unit filename="include/rpg_session.h" />
+		<Unit filename="include/rpg_sprite.h" />
+		<Unit filename="include/rpg_tilemap.h" />
+		<Unit filename="include/rpg_transition.h" />
+		<Unit filename="include/rpg_types.h" />
+		<Unit filename="include/rpg_version.h" />
+		<Unit filename="src/SDL_app.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/rpg_ability.cpp" />
+		<Unit filename="src/rpg_actor.cpp" />
+		<Unit filename="src/rpg_animation.cpp" />
+		<Unit filename="src/rpg_audio.cpp" />
+		<Unit filename="src/rpg_battler.cpp" />
+		<Unit filename="src/rpg_camera.cpp" />
+		<Unit filename="src/rpg_combat.cpp" />
+		<Unit filename="src/rpg_command.cpp" />
+		<Unit filename="src/rpg_dialog.cpp" />
+		<Unit filename="src/rpg_encounter.cpp" />
+		<Unit filename="src/rpg_event.cpp" />
+		<Unit filename="src/rpg_fpscounter.cpp" />
+		<Unit filename="src/rpg_hero.cpp" />
+		<Unit filename="src/rpg_input.cpp" />
+		<Unit filename="src/rpg_item.cpp" />
+		<Unit filename="src/rpg_lua.cpp" />
+		<Unit filename="src/rpg_main.cpp" />
+		<Unit filename="src/rpg_mainloop.cpp" />
+		<Unit filename="src/rpg_manager.cpp" />
+		<Unit filename="src/rpg_monster.cpp" />
+		<Unit filename="src/rpg_particle.cpp" />
+		<Unit filename="src/rpg_scene.cpp" />
+		<Unit filename="src/rpg_session.cpp" />
+		<Unit filename="src/rpg_sprite.cpp" />
+		<Unit filename="src/rpg_tilemap.cpp" />
+		<Unit filename="src/rpg_transition.cpp" />
+		<Unit filename="src/rpg_types.cpp" />
+		<Unit filename="src/rpg_version.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

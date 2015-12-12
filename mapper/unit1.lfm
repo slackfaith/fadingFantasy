@@ -1,44 +1,8 @@
 object Form1: TForm1
-  Left = 472
-  Height = 326
-  Top = 171
-  Width = 612
+  Left = 599
+  Height = 240
+  Top = 160
+  Width = 320
   Caption = 'Form1'
-  ClientHeight = 326
-  ClientWidth = 612
-  Menu = MainMenu1
   LCLVersion = '1.4.4.0'
-  object StatusBar1: TStatusBar
-    Left = 0
-    Height = 25
-    Top = 301
-    Width = 612
-    Panels = <>
-  end
-  object PairSplitter1: TPairSplitter
-    Left = 0
-    Height = 301
-    Top = 0
-    Width = 612
-    Align = alClient
-    Position = 350
-    object PairSplitterSide1: TPairSplitterSide
-      Cursor = crArrow
-      Left = 0
-      Height = 301
-      Top = 0
-      Width = 350
-    end
-    object PairSplitterSide2: TPairSplitterSide
-      Cursor = crArrow
-      Left = 355
-      Height = 301
-      Top = 0
-      Width = 257
-    end
-  end
-  object MainMenu1: TMainMenu
-    left = 64
-    top = 32
-  end
 end

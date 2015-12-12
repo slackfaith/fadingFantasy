@@ -5,19 +5,10 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ComCtrls, PairSplitter;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
 
 type
-
-  { TForm1 }
-
   TForm1 = class(TForm)
-    MainMenu1: TMainMenu;
-    PairSplitter1: TPairSplitter;
-    PairSplitterSide1: TPairSplitterSide;
-    PairSplitterSide2: TPairSplitterSide;
-    StatusBar1: TStatusBar;
   private
     { private declarations }
   public
