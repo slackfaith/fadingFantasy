@@ -489,3 +489,270 @@
 	<cstdio>
 	<iostream>
 
+1449709681 source:d:\win\projects\git\fadingfantasy\rpg\src\main.cpp
+	"rpg_main.h"
+
+1449705452 d:\win\projects\git\fadingfantasy\rpg\include\rpg_main.h
+	"rpg_mainloop.h"
+
+1449708678 d:\win\projects\git\fadingfantasy\rpg\include\rpg_mainloop.h
+	"rpg_manager.h"
+	"rpg_fpscounter.h"
+
+1449708450 d:\win\projects\git\fadingfantasy\rpg\include\rpg_manager.h
+	"rpg_scene.h"
+	"rpg_event.h"
+	"rpg_session.h"
+	"rpg_item.h"
+	"rpg_hero.h"
+	"rpg_encounter.h"
+	"rpg_ability.h"
+	"rpg_animation.h"
+	<string>
+	<vector>
+
+1452549573 d:\win\projects\git\fadingfantasy\rpg\include\rpg_scene.h
+	"rpg_actor.h"
+	"rpg_camera.h"
+	"rpg_animation.h"
+	"rpg_dialog.h"
+	"rpg_particle.h"
+	"rpg_transition.h"
+	"rpg_sprite.h"
+	"rpg_tilemap.h"
+	"rpg_audio.h"
+	"rpg_lua.h"
+	"SDL_app.h"
+	<vector>
+	<string>
+
+1449707722 d:\win\projects\git\fadingfantasy\rpg\include\rpg_actor.h
+	"rpg_dialog.h"
+	"rpg_sprite.h"
+	"rpg_animation.h"
+	"rpg_lua.h"
+	"rpg_particle.h"
+	"rpg_event.h"
+	<string>
+	<vector>
+
+1449706207 d:\win\projects\git\fadingfantasy\rpg\include\rpg_dialog.h
+	<string>
+	<vector>
+	"SDL_app.h"
+
+1449708884 d:\win\projects\git\fadingfantasy\rpg\include\sdl_app.h
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_gfxBlitFunc.h>
+	<SDL/SDL_imageFilter.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_rotozoom.h>
+
+1449870177 d:\win\projects\git\fadingfantasy\rpg\include\rpg_sprite.h
+	<vector>
+	<string>
+	"rpg_animation.h"
+	"rpg_audio.h"
+	"rpg_input.h"
+	"rpg_event.h"
+	"rpg_lua.h"
+	"SDL_app.h"
+
+1449709245 d:\win\projects\git\fadingfantasy\rpg\include\rpg_animation.h
+	<vector>
+	<iostream>
+	<string>
+	"SDL_app.h"
+
+1449702943 d:\win\projects\git\fadingfantasy\rpg\include\rpg_audio.h
+
+1449702943 d:\win\projects\git\fadingfantasy\rpg\include\rpg_input.h
+
+1449707022 d:\win\projects\git\fadingfantasy\rpg\include\rpg_event.h
+	"rpg_lua.h"
+
+1449702943 d:\win\projects\git\fadingfantasy\rpg\include\rpg_lua.h
+
+1449710539 d:\win\projects\git\fadingfantasy\rpg\include\rpg_particle.h
+	"SDL_app.h"
+	<vector>
+
+1449705854 d:\win\projects\git\fadingfantasy\rpg\include\rpg_camera.h
+	"rpg_input.h"
+
+1449709922 d:\win\projects\git\fadingfantasy\rpg\include\rpg_transition.h
+	"SDL_app.h"
+
+1449869407 d:\win\projects\git\fadingfantasy\rpg\include\rpg_tilemap.h
+	"rpg_item.h"
+	"rpg_actor.h"
+	"rpg_encounter.h"
+	<string>
+	<vector>
+
+1449705133 d:\win\projects\git\fadingfantasy\rpg\include\rpg_item.h
+	"rpg_ability.h"
+	"rpg_battler.h"
+	"rpg_types.h"
+	"rpg_scene.h"
+	"rpg_encounter.h"
+	<string>
+	<vector>
+
+1449706223 d:\win\projects\git\fadingfantasy\rpg\include\rpg_ability.h
+	"rpg_animation.h"
+	"rpg_types.h"
+
+1449710197 d:\win\projects\git\fadingfantasy\rpg\include\rpg_types.h
+
+1449870645 d:\win\projects\git\fadingfantasy\rpg\include\rpg_battler.h
+	"rpg_command.h"
+	"rpg_types.h"
+	"SDL_app.h"
+	<string>
+	<vector>
+
+1449709037 d:\win\projects\git\fadingfantasy\rpg\include\rpg_command.h
+	"rpg_types.h"
+	<string>
+
+1449709011 d:\win\projects\git\fadingfantasy\rpg\include\rpg_encounter.h
+	"rpg_item.h"
+	"rpg_monster.h"
+	"rpg_types.h"
+	<string>
+	<vector>
+
+1449708100 d:\win\projects\git\fadingfantasy\rpg\include\rpg_monster.h
+	"rpg_battler.h"
+	"rpg_item.h"
+	"rpg_ability.h"
+	"rpg_types.h"
+
+1449869734 d:\win\projects\git\fadingfantasy\rpg\include\rpg_session.h
+	"rpg_item.h"
+	"rpg_hero.h"
+	"rpg_tilemap.h"
+	"rpg_event.h"
+	<string>
+	<vector>
+	<iostream>
+
+1449707463 d:\win\projects\git\fadingfantasy\rpg\include\rpg_hero.h
+	"rpg_actor.h"
+	"rpg_battler.h"
+	"rpg_item.h"
+	"rpg_ability.h"
+	"rpg_types.h"
+	<vector>
+	<string>
+
+1449707622 d:\win\projects\git\fadingfantasy\rpg\include\rpg_fpscounter.h
+	<string>
+	<limits>
+
+1449704242 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_ability.cpp
+	"rpg_ability.h"
+
+1449702131 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_actor.cpp
+	"rpg_actor.h"
+
+1449702178 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_animation.cpp
+	"rpg_animation.h"
+
+1449702210 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_audio.cpp
+	"rpg_audio.h"
+
+1449704261 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_battler.cpp
+	"rpg_battler.h"
+
+1449704476 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_camera.cpp
+	"rpg_camera.h"
+
+1449704271 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_combat.cpp
+	"rpg_combat.h"
+
+1449707918 d:\win\projects\git\fadingfantasy\rpg\include\rpg_combat.h
+	"rpg_battler.h"
+	"rpg_monster.h"
+	"rpg_hero.h"
+	"rpg_item.h"
+	"rpg_command.h"
+	<string>
+	<vector>
+
+1449704234 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_command.cpp
+	"rpg_command.h"
+
+1449702099 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_dialog.cpp
+	"rpg_dialog.h"
+
+1449704417 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_encounter.cpp
+	"rpg_encounter.h"
+
+1449702845 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_event.cpp
+	"rpg_event.h"
+
+1449702566 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_fpscounter.cpp
+	"rpg_fpscounter.h"
+
+1449704223 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_hero.cpp
+	"rpg_hero.h"
+
+1449702202 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_input.cpp
+	"rpg_input.h"
+
+1449704204 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_item.cpp
+	"rpg_item.h"
+
+1449702265 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_lua.cpp
+	"rpg_lua.h"
+
+1449705223 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_main.cpp
+	"rpg_main.h"
+
+1449708693 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_mainloop.cpp
+	"rpg_mainloop.h"
+
+1449703688 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_manager.cpp
+	"rpg_manager.h"
+
+1449704213 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_monster.cpp
+	"rpg_monster.h"
+
+1449702996 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_particle.cpp
+	"rpg_particle.h"
+
+1449621960 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_scene.cpp
+	"rpg_scene.h"
+
+1449702155 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_session.cpp
+	"rpg_session.h"
+
+1449706862 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_sprite.cpp
+	"rpg_sprite.h"
+
+1449702139 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_tilemap.cpp
+	"rpg_tilemap.h"
+
+1449710144 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_transition.cpp
+	"rpg_transition.h"
+	<iostream>
+
+1449703382 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_types.cpp
+	"rpg_types.h"
+
+1449708661 source:d:\win\projects\git\fadingfantasy\rpg\src\rpg_version.cpp
+	"rpg_version.h"
+
+1449708627 d:\win\projects\git\fadingfantasy\rpg\include\rpg_version.h
+	<string>
+	<cstdio>
+	<iostream>
+
+1449705273 source:d:\win\projects\git\fadingfantasy\rpg\src\sdl_app.cpp
+	"SDL_app.h"
+

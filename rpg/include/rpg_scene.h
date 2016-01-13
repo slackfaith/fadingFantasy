@@ -31,7 +31,7 @@ class rpg_scene
         rpg_scene();
         virtual ~rpg_scene();
     private:
-        std::string _name;  `
+        std::string _name;
         std::vector<rpg_actor*>
         _actors;
         std::vector<rpg_sprite>
