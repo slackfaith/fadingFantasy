@@ -14,7 +14,7 @@ class rpg_tilemapObj;
 struct rpg_tilemapTile{
 };
 
-struct rpg_tilemapObjWarpARG{
+struct rpg_tilemapObjARG_warp{
 
 };
 
